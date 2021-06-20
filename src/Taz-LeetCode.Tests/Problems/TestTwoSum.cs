@@ -9,7 +9,8 @@ public class TestTwoSum
     //Given
         TwoSum sut = new TwoSum();
     //When
-        var result = sut.Solution(null);
+        var result = sut.Solution(null, 0);
     //Then
+        
     }
 }
