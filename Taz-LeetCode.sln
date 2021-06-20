@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A893167E-2B6D-44C0-ADAC-D3A0D1569439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taz-LeetCode.Problems", "src\Taz-LeetCode.Problems\Taz-LeetCode.Problems.csproj", "{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taz-LeetCode.Tests", "src\Taz-LeetCode.Tests\Taz-LeetCode.Tests.csproj", "{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +20,35 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Debug|x64.Build.0 = Debug|Any CPU
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Debug|x86.Build.0 = Debug|Any CPU
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Release|x64.ActiveCfg = Release|Any CPU
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Release|x64.Build.0 = Release|Any CPU
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Release|x86.ActiveCfg = Release|Any CPU
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Release|x86.Build.0 = Release|Any CPU
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Debug|x64.Build.0 = Debug|Any CPU
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Debug|x86.Build.0 = Debug|Any CPU
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Release|x64.ActiveCfg = Release|Any CPU
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Release|x64.Build.0 = Release|Any CPU
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Release|x86.ActiveCfg = Release|Any CPU
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896} = {A893167E-2B6D-44C0-ADAC-D3A0D1569439}
+		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF} = {A893167E-2B6D-44C0-ADAC-D3A0D1569439}
 	EndGlobalSection
 EndGlobal

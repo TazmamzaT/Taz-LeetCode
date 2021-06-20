@@ -1,0 +1,3 @@
+sudo ln -s /snap/dotnet-sdk/current/dotnet /usr/local/bin/dotnet
+
+https://github.com/dotnet/sdk/issues/10403
