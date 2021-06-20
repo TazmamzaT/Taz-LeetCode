@@ -1,5 +1,9 @@
-public class Solution {
-    public int[] TwoSum(int[] nums, int target) {
-        
+public namespace Taz_LeetCode.Problems
+{
+    public class TwoSum {
+        public int[] TwoSum(int[] nums, int target) {
+            return null;
+        }
     }
 }
+
