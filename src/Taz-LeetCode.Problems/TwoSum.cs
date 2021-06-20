@@ -1,7 +1,7 @@
-public namespace Taz_LeetCode.Problems
+namespace Taz_LeetCode.Problems
 {
     public class TwoSum {
-        public int[] TwoSum(int[] nums, int target) {
+        public int[] Solution(int[] nums, int target) {
             return null;
         }
     }
