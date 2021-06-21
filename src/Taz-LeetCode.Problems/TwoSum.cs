@@ -19,6 +19,11 @@ namespace Taz_LeetCode.Problems
                     yeet.Add(i, i - target);
 
                 }
+                if else
+                {
+                    
+                }
+                return null;
             }
             return null;
         }
