@@ -10,22 +10,23 @@ namespace Taz_LeetCode.Problems
     public class TwoSum {
 
         public int[] Solution(int[] nums, int target) {
+            //Current value, Target - Current value
             Dictionary<int, int> yeet = new Dictionary<int, int>();
+            int[] result = new int[2];
 
-            foreach (int i in nums)
+            for (int i = 0; i < nums.Length; i++)
             {
-                if (!yeet.ContainsKey(i))
-                {
-                    yeet.Add(i, i - target);
 
-                }
-                if else
+                if (yeet.ContainsKey(target-nums[i]))
                 {
-                    
+                    result[0] = yeet[target-nums[i]];
+                    result[1] = i;
+                    return result;
                 }
-                return null;
+
+                yeet.Add(nums[i], i);
             }
-            return null;
+            return result;
         }
     }
 }
