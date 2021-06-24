@@ -1,1 +1,5 @@
 dotnet test --logger "console;verbosity=detailed"
+
+--filter "FullyQualifiedName~Namespace.Class"
+
+dotnet test --logger "console;verbosity=detailed" --filter "FullyQualifiedName~TestThreeSum"
