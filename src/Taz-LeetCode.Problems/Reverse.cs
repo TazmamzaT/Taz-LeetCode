@@ -10,6 +10,24 @@ namespace Taz_LeetCode.Problems
     {
         public int Solution(int x)
         {
+
+
+            // 123
+            // 321
+            
+            // Dillon's way
+
+            // result = 0
+            // while true
+            // - value = 121 % 10 -> 1
+            // - shrinkingVal = Math.floor(121 / 10)
+            // - if result === 0: result = value
+            // - else result *= 10 + value
+
+            // if too big, if too small return
+
+            // else return result
+
             if (Math.Pow(-2, 31) >= x || x >= Math.Pow(2, 31) - 1) return 0;
             bool negative = false;
             string number;
