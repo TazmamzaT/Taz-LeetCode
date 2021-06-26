@@ -1,15 +1,14 @@
-using System;
-
 namespace Taz_LeetCode.Problems
 {
     /*
-        Given a signed 32-bit integer x, return x with its digits reversed.
-        If reversing x causes the value to go outside the signed 32-bit integer range [-2^31, 2^31 - 1], then return 0.
+        Given an integer x, return true if x is palindrome integer.
+        An integer is a palindrome when it reads the same backward as forward. For example, 121 is palindrome while 123 is not.
     */
-    public class Reverse
+    public class IsPalindrome
     {
-        public int Solution(int x)
+        public bool Solution(int x)
         {
+            if (x < 0) return false;
 
             var number = x;
             int lastDigit;
@@ -24,13 +23,13 @@ namespace Taz_LeetCode.Problems
                 }
                 catch (System.OverflowException)
                 {
-                    return 0;
+                    return false;
                 }
                 
                 number = (int)(number / 10);
             }
 
-            return reversed;
+            if (reversed == x) return true; else return false;
         }
     }
 }
