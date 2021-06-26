@@ -31,8 +31,8 @@ public class TestReverse
     }
 
     [Fact]
-    public void BIGBOI()
+    public void Failing1()
     {
-        //Assert.Equal()
+        Assert.Equal(0, sut.Solution(1534236469));
     }
 }

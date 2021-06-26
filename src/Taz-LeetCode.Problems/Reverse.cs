@@ -11,53 +11,27 @@ namespace Taz_LeetCode.Problems
         public int Solution(int x)
         {
 
+            var number = x;
+            int lastDigit;
+            var reversed = 0;
 
-            // 123
-            // 321
-            
-            // Dillon's way
-
-            // result = 0
-            // while true
-            // - value = 121 % 10 -> 1
-            // - shrinkingVal = Math.floor(121 / 10)
-            // - if result === 0: result = value
-            // - else result *= 10 + value
-
-            // if too big, if too small return
-
-            // else return result
-
-            if (Math.Pow(-2, 31) >= x || x >= Math.Pow(2, 31) - 1) return 0;
-            bool negative = false;
-            string number;
-
-            if (x < 0)
+            while (number != 0)
             {
-                negative = true;
-                number = (-1 * x).ToString();
-            }
-            else
-            {
-                number = x.ToString();
+                lastDigit =  number % 10;
+                try
+                {
+                    reversed = checked(reversed * 10 + lastDigit);
+                }
+                catch (System.OverflowException)
+                {
+                    return 0;
+                }
+                
+                number = (int)(number / 10);
+                Console.WriteLine(reversed);
             }
 
-            char[] temp = new char[number.Length];
-
-            for (int i = 0; i < number.Length; i++)
-            {
-                temp[i] = number[number.Length - 1 - i];
-            }
-
-            if (negative)
-            {
-                return -1 * int.Parse(temp);
-            }
-            else
-            {
-                return int.Parse(temp);
-            }
-
+            return reversed;
         }
     }
 }
