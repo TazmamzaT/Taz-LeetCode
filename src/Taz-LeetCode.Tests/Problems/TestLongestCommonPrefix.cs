@@ -16,4 +16,10 @@ public class TestLongestCommonPrefix
     {
         Assert.Equal(string.Empty, sut.Solution(new string[] {"dog","racecar","car"}));
     }
+
+    [Fact]
+    public void Failing1()
+    {
+        Assert.Equal("", sut.Solution(new string[] {""}));
+    }
 }
