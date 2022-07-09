@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A893167E-2B6D-44C0-ADAC-D3A0D1569439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taz-LeetCode.Problems", "src\Taz-LeetCode.Problems\Taz-LeetCode.Problems.csproj", "{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taz-LeetCode.Problems", "src\Taz-LeetCode.Problems\Taz-LeetCode.Problems.csproj", "{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taz-LeetCode.Tests", "src\Taz-LeetCode.Tests\Taz-LeetCode.Tests.csproj", "{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taz-LeetCode.Tests", "src\Taz-LeetCode.Tests\Taz-LeetCode.Tests.csproj", "{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -47,8 +42,10 @@ Global
 		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Release|x86.ActiveCfg = Release|Any CPU
 		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{AD8465F5-E6A9-43FA-B796-0A2DBE69A896} = {A893167E-2B6D-44C0-ADAC-D3A0D1569439}
-		{9398FDD2-6CBA-4C4B-95C6-F5C2392218BF} = {A893167E-2B6D-44C0-ADAC-D3A0D1569439}
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E217E03-D03C-4878-B874-84C05D8D7657}
 	EndGlobalSection
 EndGlobal
